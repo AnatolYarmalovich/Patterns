@@ -32,7 +32,6 @@
     return [[Laptop alloc]initWithBuilder: laptopBuilder];
 }
 
-
 - (LaptopBuilder *)makeBuilder {
     LaptopBuilder* builder = [LaptopBuilder new];
     builder.cpuType = _cpuType;
@@ -40,6 +39,5 @@
     builder.displaySize = _displaySize;
     return builder;
 }
-
 
 @end
