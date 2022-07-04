@@ -11,10 +11,10 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-typedef enum CPUType {
+typedef NS_ENUM(NSInteger, CPUType) {
     ARM,
     Intel
-} CPUType;
+};
 
 typedef int InchesScreenSize;
 
