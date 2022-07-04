@@ -10,7 +10,6 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface FrontalWashingMachineFactory : NSObject<WashingMachineFactory>
--(instancetype)init;
 -(id<FrontalWashingMachine>)makeWashingMachine;
 @end
 

@@ -9,12 +9,6 @@
 #import "FrontalLoadWashingMachine.h"
 
 @implementation FrontalWashingMachineFactory
-
--(instancetype)init {
-    self = [super init];
-    return self;
-}
-
 - (id<FrontalWashingMachine>)makeWashingMachine {
     return [[FrontalLoadWashingMachine alloc] init];
 }
