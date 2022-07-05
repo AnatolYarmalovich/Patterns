@@ -12,7 +12,7 @@
 
 @protocol WashingMachine <NSObject>
 
--(NSString *)unloadSide;
+-(NSString *)loadingSide;
 
 @end
 

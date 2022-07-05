@@ -24,13 +24,13 @@
     VerticalWashingMachineFactory *verticalWMFactory = [VerticalWashingMachineFactory new];
     FrontalWashingMachineFactory *frontalWMFactory = [FrontalWashingMachineFactory new];
 
-    id<WashingMachine> vertical = [warehouse createWashingMachineWith:verticalWMFactory];
+    id<WashingMachine> verticalLoadingMachine = [warehouse createWashingMachineWith:verticalWMFactory];
 
-    XCTAssertTrue([[vertical unloadSide] isEqual:@"top"]);
+    XCTAssertTrue([[verticalLoadingMachine loadingSide] isEqual:@"top"]);
 
-    id<WashingMachine> frontal = [warehouse createWashingMachineWith:frontalWMFactory];
+    id<WashingMachine> frontalLoadingMachine = [warehouse createWashingMachineWith:frontalWMFactory];
 
-    XCTAssertTrue([[frontal unloadSide] isEqual:@"front"]);
+    XCTAssertTrue([[frontalLoadingMachine loadingSide] isEqual:@"front"]);
 }
 
 @end

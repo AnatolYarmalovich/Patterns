@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface VerticalLoadWashingMachine : NSObject <VerticalWashingMachine>
 
--(NSString *)unloadSide;
+-(NSString *)loadingSide;
 
 @end
 

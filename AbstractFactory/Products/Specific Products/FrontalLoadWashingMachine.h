@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface FrontalLoadWashingMachine : NSObject <FrontalWashingMachine>
 
--(NSString *)unloadSide;
+-(NSString *)loadingSide;
 
 @end
 

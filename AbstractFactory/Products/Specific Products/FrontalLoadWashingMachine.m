@@ -9,7 +9,7 @@
 
 @implementation FrontalLoadWashingMachine
 
--(NSString *)unloadSide {
+-(NSString *)loadingSide {
     return @"front";
 }
 

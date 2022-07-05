@@ -9,7 +9,7 @@
 
 @implementation VerticalLoadWashingMachine
 
--(NSString *)unloadSide {
+-(NSString *)loadingSide {
     return @"top";
 }
 
