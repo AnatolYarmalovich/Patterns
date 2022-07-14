@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		291AD1412874438400AF284F /* Tablet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2966E3E128741E9600C073A4 /* Tablet.m */; };
+		291AD1422874438700AF284F /* TabletBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2966E3DD28741E8000C073A4 /* TabletBuilder.m */; };
+		29348F4C286C8709003F4B78 /* Laptop.m in Sources */ = {isa = PBXBuildFile; fileRef = 29348F4B286C8709003F4B78 /* Laptop.m */; };
+		29348F4F286C871D003F4B78 /* LaptopBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 29348F4E286C871D003F4B78 /* LaptopBuilder.m */; };
 		2940C293279DDA9C0010B621 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2940C292279DDA9C0010B621 /* main.m */; };
 		2940C2A0279DDAB30010B621 /* FactoryMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 2940C29F279DDAB30010B621 /* FactoryMethod.m */; };
 		2940C2A6279DE2D50010B621 /* SourceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2940C2A5279DE2D50010B621 /* SourceFactory.m */; };
@@ -24,6 +28,8 @@
 		2996FCA22873766000C2CB50 /* VerticalWashingMachineFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2996FCA12873766000C2CB50 /* VerticalWashingMachineFactory.m */; };
 		2996FCA5287376B400C2CB50 /* FrontalWashingMachineFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2996FCA4287376B400C2CB50 /* FrontalWashingMachineFactory.m */; };
 		2996FCA928737C0800C2CB50 /* Warehouse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2996FCA828737C0800C2CB50 /* Warehouse.m */; };
+		2966E3EE287442A600C073A4 /* RegularBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2966E3D328741A8700C073A4 /* RegularBuilder.m */; };
+		29A6B613286B47BE00091B3D /* Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A6B612286B47BE00091B3D /* Builder.m */; };
 		29E36130286AEE3A00E64485 /* Prototype.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E3612F286AEE3A00E64485 /* Prototype.m */; };
 		29E36138286AF21000E64485 /* WaterTap.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E36137286AF21000E64485 /* WaterTap.m */; };
 		29E3613B286B0C7C00E64485 /* PlumbingStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E3613A286B0C7C00E64485 /* PlumbingStore.m */; };
@@ -42,6 +48,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		29348F4A286C8709003F4B78 /* Laptop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Laptop.h; sourceTree = "<group>"; };
+		29348F4B286C8709003F4B78 /* Laptop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Laptop.m; sourceTree = "<group>"; };
+		29348F4D286C871D003F4B78 /* LaptopBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LaptopBuilder.h; sourceTree = "<group>"; };
+		29348F4E286C871D003F4B78 /* LaptopBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LaptopBuilder.m; sourceTree = "<group>"; };
 		2940C28F279DDA9C0010B621 /* Patterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Patterns; sourceTree = BUILT_PRODUCTS_DIR; };
 		2940C292279DDA9C0010B621 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2940C29D279DDAB30010B621 /* FactoryMethod.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FactoryMethod.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,8 +88,17 @@
 		2996FCA4287376B400C2CB50 /* FrontalWashingMachineFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FrontalWashingMachineFactory.m; sourceTree = "<group>"; };
 		2996FCA728737C0800C2CB50 /* Warehouse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Warehouse.h; sourceTree = "<group>"; };
 		2996FCA828737C0800C2CB50 /* Warehouse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Warehouse.m; sourceTree = "<group>"; };
+		2966E3D128741A8700C073A4 /* RegularBuilder.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RegularBuilder.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2966E3D328741A8700C073A4 /* RegularBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegularBuilder.m; sourceTree = "<group>"; };
+		2966E3DC28741E8000C073A4 /* TabletBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabletBuilder.h; sourceTree = "<group>"; };
+		2966E3DD28741E8000C073A4 /* TabletBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabletBuilder.m; sourceTree = "<group>"; };
+		2966E3E028741E9600C073A4 /* Tablet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tablet.h; sourceTree = "<group>"; };
+		2966E3E128741E9600C073A4 /* Tablet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tablet.m; sourceTree = "<group>"; };
+		2966E3E72874429E00C073A4 /* RegularBuilder.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RegularBuilder.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29A6B60A286B214700091B3D /* CraneColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CraneColor.h; sourceTree = "<group>"; };
 		29A6B60B286B217800091B3D /* FaucetMechanism.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FaucetMechanism.h; sourceTree = "<group>"; };
+		29A6B610286B47BE00091B3D /* Builder.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Builder.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29A6B612286B47BE00091B3D /* Builder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Builder.m; sourceTree = "<group>"; };
 		29E3612D286AEE3A00E64485 /* Prototype.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Prototype.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29E3612F286AEE3A00E64485 /* Prototype.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Prototype.m; sourceTree = "<group>"; };
 		29E36136286AF21000E64485 /* WaterTap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaterTap.h; sourceTree = "<group>"; };
@@ -117,6 +136,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2966E3E42874429E00C073A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29A6B60D286B47BE00091B3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		29E3612A286AEE3A00E64485 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -127,6 +160,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29348F47286C86C9003F4B78 /* LaptopBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				29348F4D286C871D003F4B78 /* LaptopBuilder.h */,
+				29348F4E286C871D003F4B78 /* LaptopBuilder.m */,
+			);
+			path = LaptopBuilder;
+			sourceTree = "<group>";
+		};
+		29348F49286C86F5003F4B78 /* Laptop */ = {
+			isa = PBXGroup;
+			children = (
+				29348F4A286C8709003F4B78 /* Laptop.h */,
+				29348F4B286C8709003F4B78 /* Laptop.m */,
+			);
+			path = Laptop;
+			sourceTree = "<group>";
+		};
 		2940C286279DDA9C0010B621 = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +186,8 @@
 				295177BB286438CE008BCDDA /* Singleton */,
 				29E3612E286AEE3A00E64485 /* Prototype */,
 				2996FC8B28734BBA00C2CB50 /* AbstractFactory */,
+				29A6B611286B47BE00091B3D /* Builder */,
+				2966E3E82874429E00C073A4 /* RegularBuilder */,
 				2940C290279DDA9C0010B621 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -147,6 +200,9 @@
 				295177BA286438CE008BCDDA /* Singleton.xctest */,
 				29E3612D286AEE3A00E64485 /* Prototype.xctest */,
 				2996FC8A28734BBA00C2CB50 /* AbstractFactory.xctest */,
+				29A6B610286B47BE00091B3D /* Builder.xctest */,
+				2966E3D128741A8700C073A4 /* RegularBuilder.xctest */,
+				2966E3E72874429E00C073A4 /* RegularBuilder.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -315,6 +371,44 @@
 			path = Warehouse;
 			sourceTree = "<group>";
 		};
+		2966E3D828741B9300C073A4 /* TabletBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				2966E3DC28741E8000C073A4 /* TabletBuilder.h */,
+				2966E3DD28741E8000C073A4 /* TabletBuilder.m */,
+			);
+			path = TabletBuilder;
+			sourceTree = "<group>";
+		};
+		2966E3DF28741E8400C073A4 /* Tablet */ = {
+			isa = PBXGroup;
+			children = (
+				2966E3E028741E9600C073A4 /* Tablet.h */,
+				2966E3E128741E9600C073A4 /* Tablet.m */,
+			);
+			path = Tablet;
+			sourceTree = "<group>";
+		};
+		2966E3E82874429E00C073A4 /* RegularBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				2966E3DF28741E8400C073A4 /* Tablet */,
+				2966E3D828741B9300C073A4 /* TabletBuilder */,
+				2966E3D328741A8700C073A4 /* RegularBuilder.m */,
+			);
+			path = RegularBuilder;
+			sourceTree = "<group>";
+		};
+		29A6B611286B47BE00091B3D /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				29348F49286C86F5003F4B78 /* Laptop */,
+				29348F47286C86C9003F4B78 /* LaptopBuilder */,
+				29A6B612286B47BE00091B3D /* Builder.m */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
 		29E3612E286AEE3A00E64485 /* Prototype */ = {
 			isa = PBXGroup;
 			children = (
@@ -416,6 +510,40 @@
 			productReference = 2996FC8A28734BBA00C2CB50 /* AbstractFactory.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		2966E3E62874429E00C073A4 /* RegularBuilder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2966E3ED2874429E00C073A4 /* Build configuration list for PBXNativeTarget "RegularBuilder" */;
+			buildPhases = (
+				2966E3E32874429E00C073A4 /* Sources */,
+				2966E3E42874429E00C073A4 /* Frameworks */,
+				2966E3E52874429E00C073A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RegularBuilder;
+			productName = RegularBuilder;
+			productReference = 2966E3E72874429E00C073A4 /* RegularBuilder.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		29A6B60F286B47BE00091B3D /* Builder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29A6B616286B47BE00091B3D /* Build configuration list for PBXNativeTarget "Builder" */;
+			buildPhases = (
+				29A6B60C286B47BE00091B3D /* Sources */,
+				29A6B60D286B47BE00091B3D /* Frameworks */,
+				29A6B60E286B47BE00091B3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Builder;
+			productName = Builder;
+			productReference = 29A6B610286B47BE00091B3D /* Builder.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		29E3612C286AEE3A00E64485 /* Prototype */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 29E36133286AEE3A00E64485 /* Build configuration list for PBXNativeTarget "Prototype" */;
@@ -440,7 +568,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 1320;
+				LastUpgradeCheck = 1340;
 				TargetAttributes = {
 					2940C28E279DDA9C0010B621 = {
 						CreatedOnToolsVersion = 13.2;
@@ -452,6 +580,12 @@
 						CreatedOnToolsVersion = 13.4.1;
 					};
 					2996FC8928734BBA00C2CB50 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					2966E3E62874429E00C073A4 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					29A6B60F286B47BE00091B3D = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 					29E3612C286AEE3A00E64485 = {
@@ -477,6 +611,8 @@
 				295177B9286438CE008BCDDA /* Singleton */,
 				29E3612C286AEE3A00E64485 /* Prototype */,
 				2996FC8928734BBA00C2CB50 /* AbstractFactory */,
+				29A6B60F286B47BE00091B3D /* Builder */,
+				2966E3E62874429E00C073A4 /* RegularBuilder */,
 			);
 		};
 /* End PBXProject section */
@@ -497,6 +633,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		2996FC8828734BBA00C2CB50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2966E3E52874429E00C073A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29A6B60E286B47BE00091B3D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -555,6 +705,26 @@
 				2996FCA928737C0800C2CB50 /* Warehouse.m in Sources */,
 				2996FCA22873766000C2CB50 /* VerticalWashingMachineFactory.m in Sources */,
 				2996FC962873642F00C2CB50 /* VerticalLoadWashingMachine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2966E3E32874429E00C073A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				291AD1422874438700AF284F /* TabletBuilder.m in Sources */,
+				2966E3EE287442A600C073A4 /* RegularBuilder.m in Sources */,
+				291AD1412874438400AF284F /* Tablet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29A6B60C286B47BE00091B3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29348F4F286C871D003F4B78 /* LaptopBuilder.m in Sources */,
+				29A6B613286B47BE00091B3D /* Builder.m in Sources */,
+				29348F4C286C8709003F4B78 /* Laptop.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -800,6 +970,76 @@
 			};
 			name = Release;
 		};
+		2966E3EB2874429E00C073A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5C9F7X34F2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anatoly.RegularBuilder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2966E3EC2874429E00C073A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5C9F7X34F2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anatoly.RegularBuilder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29A6B614286B47BE00091B3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5C9F7X34F2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anatoly.Builder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29A6B615286B47BE00091B3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5C9F7X34F2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anatoly.Builder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		29E36131286AEE3A00E64485 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -879,6 +1119,24 @@
 			buildConfigurations = (
 				2996FC8E28734BBA00C2CB50 /* Debug */,
 				2996FC8F28734BBA00C2CB50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2966E3ED2874429E00C073A4 /* Build configuration list for PBXNativeTarget "RegularBuilder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2966E3EB2874429E00C073A4 /* Debug */,
+				2966E3EC2874429E00C073A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29A6B616286B47BE00091B3D /* Build configuration list for PBXNativeTarget "Builder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29A6B614286B47BE00091B3D /* Debug */,
+				29A6B615286B47BE00091B3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

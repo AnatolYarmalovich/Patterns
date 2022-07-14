@@ -7,9 +7,9 @@
 
 #ifndef CraneColor_h
 #define CraneColor_h
-typedef enum CraneColor {
+typedef NS_ENUM(NSInteger, CraneColor)  {
     Chrome,
     Black,
     White
-} CraneColor;
+};
 #endif /* CraneColor_h */

@@ -7,9 +7,9 @@
 
 #ifndef FaucetMechanism_h
 #define FaucetMechanism_h
-typedef enum FaucetMechanism {
+typedef NS_ENUM(NSInteger, FaucetMechanism) {
     Valve,
     Ball,
-    Suberic
-} FaucetMechanism;
+    Corky
+};
 #endif /* FaucetMechanism_h */
