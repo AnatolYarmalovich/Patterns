@@ -22,6 +22,12 @@
 		2940C2BF279DEA7B0010B621 /* Repository.m in Sources */ = {isa = PBXBuildFile; fileRef = 2940C2BE279DEA7B0010B621 /* Repository.m */; };
 		295177BD286438CE008BCDDA /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 295177BC286438CE008BCDDA /* Singleton.m */; };
 		295177C428644B86008BCDDA /* UserSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 295177C328644B86008BCDDA /* UserSetting.m */; };
+		2996FC8D28734BBA00C2CB50 /* AbstractFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2996FC8C28734BBA00C2CB50 /* AbstractFactory.m */; };
+		2996FC962873642F00C2CB50 /* VerticalLoadWashingMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 2996FC952873642F00C2CB50 /* VerticalLoadWashingMachine.m */; };
+		2996FC992873654200C2CB50 /* FrontalLoadWashingMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 2996FC982873654200C2CB50 /* FrontalLoadWashingMachine.m */; };
+		2996FCA22873766000C2CB50 /* VerticalWashingMachineFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2996FCA12873766000C2CB50 /* VerticalWashingMachineFactory.m */; };
+		2996FCA5287376B400C2CB50 /* FrontalWashingMachineFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2996FCA4287376B400C2CB50 /* FrontalWashingMachineFactory.m */; };
+		2996FCA928737C0800C2CB50 /* Warehouse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2996FCA828737C0800C2CB50 /* Warehouse.m */; };
 		2966E3EE287442A600C073A4 /* RegularBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2966E3D328741A8700C073A4 /* RegularBuilder.m */; };
 		29A6B613286B47BE00091B3D /* Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A6B612286B47BE00091B3D /* Builder.m */; };
 		29E36130286AEE3A00E64485 /* Prototype.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E3612F286AEE3A00E64485 /* Prototype.m */; };
@@ -68,6 +74,20 @@
 		295177BC286438CE008BCDDA /* Singleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
 		295177C228644B86008BCDDA /* UserSetting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserSetting.h; sourceTree = "<group>"; };
 		295177C328644B86008BCDDA /* UserSetting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserSetting.m; sourceTree = "<group>"; };
+		2996FC8A28734BBA00C2CB50 /* AbstractFactory.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbstractFactory.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2996FC8C28734BBA00C2CB50 /* AbstractFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractFactory.m; sourceTree = "<group>"; };
+		2996FC932873617E00C2CB50 /* WashingMachine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WashingMachine.h; sourceTree = "<group>"; };
+		2996FC942873642F00C2CB50 /* VerticalLoadWashingMachine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerticalLoadWashingMachine.h; sourceTree = "<group>"; };
+		2996FC952873642F00C2CB50 /* VerticalLoadWashingMachine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerticalLoadWashingMachine.m; sourceTree = "<group>"; };
+		2996FC972873654200C2CB50 /* FrontalLoadWashingMachine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrontalLoadWashingMachine.h; sourceTree = "<group>"; };
+		2996FC982873654200C2CB50 /* FrontalLoadWashingMachine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FrontalLoadWashingMachine.m; sourceTree = "<group>"; };
+		2996FC9B2873664900C2CB50 /* WashingMachineFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WashingMachineFactory.h; sourceTree = "<group>"; };
+		2996FCA02873766000C2CB50 /* VerticalWashingMachineFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerticalWashingMachineFactory.h; sourceTree = "<group>"; };
+		2996FCA12873766000C2CB50 /* VerticalWashingMachineFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerticalWashingMachineFactory.m; sourceTree = "<group>"; };
+		2996FCA3287376B400C2CB50 /* FrontalWashingMachineFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrontalWashingMachineFactory.h; sourceTree = "<group>"; };
+		2996FCA4287376B400C2CB50 /* FrontalWashingMachineFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FrontalWashingMachineFactory.m; sourceTree = "<group>"; };
+		2996FCA728737C0800C2CB50 /* Warehouse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Warehouse.h; sourceTree = "<group>"; };
+		2996FCA828737C0800C2CB50 /* Warehouse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Warehouse.m; sourceTree = "<group>"; };
 		2966E3D128741A8700C073A4 /* RegularBuilder.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RegularBuilder.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2966E3D328741A8700C073A4 /* RegularBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegularBuilder.m; sourceTree = "<group>"; };
 		2966E3DC28741E8000C073A4 /* TabletBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabletBuilder.h; sourceTree = "<group>"; };
@@ -103,6 +123,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		295177B7286438CE008BCDDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2996FC8728734BBA00C2CB50 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -158,6 +185,7 @@
 				2940C29E279DDAB30010B621 /* FactoryMethod */,
 				295177BB286438CE008BCDDA /* Singleton */,
 				29E3612E286AEE3A00E64485 /* Prototype */,
+				2996FC8B28734BBA00C2CB50 /* AbstractFactory */,
 				29A6B611286B47BE00091B3D /* Builder */,
 				2966E3E82874429E00C073A4 /* RegularBuilder */,
 				2940C290279DDA9C0010B621 /* Products */,
@@ -171,6 +199,7 @@
 				2940C29D279DDAB30010B621 /* FactoryMethod.xctest */,
 				295177BA286438CE008BCDDA /* Singleton.xctest */,
 				29E3612D286AEE3A00E64485 /* Prototype.xctest */,
+				2996FC8A28734BBA00C2CB50 /* AbstractFactory.xctest */,
 				29A6B610286B47BE00091B3D /* Builder.xctest */,
 				2966E3D128741A8700C073A4 /* RegularBuilder.xctest */,
 				2966E3E72874429E00C073A4 /* RegularBuilder.xctest */,
@@ -280,6 +309,66 @@
 				295177C328644B86008BCDDA /* UserSetting.m */,
 			);
 			path = UserSetting;
+			sourceTree = "<group>";
+		};
+		2996FC8B28734BBA00C2CB50 /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+				2996FCA628737BBE00C2CB50 /* Warehouse */,
+				2996FC92287357B600C2CB50 /* Factory */,
+				2996FC912873550B00C2CB50 /* Products */,
+				2996FC8C28734BBA00C2CB50 /* AbstractFactory.m */,
+			);
+			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		2996FC912873550B00C2CB50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2996FC9A2873655600C2CB50 /* Specific Products */,
+				2996FC932873617E00C2CB50 /* WashingMachine.h */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		2996FC92287357B600C2CB50 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				2996FC9C287375CD00C2CB50 /* Specific Factory */,
+				2996FC9B2873664900C2CB50 /* WashingMachineFactory.h */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		2996FC9A2873655600C2CB50 /* Specific Products */ = {
+			isa = PBXGroup;
+			children = (
+				2996FC972873654200C2CB50 /* FrontalLoadWashingMachine.h */,
+				2996FC982873654200C2CB50 /* FrontalLoadWashingMachine.m */,
+				2996FC942873642F00C2CB50 /* VerticalLoadWashingMachine.h */,
+				2996FC952873642F00C2CB50 /* VerticalLoadWashingMachine.m */,
+			);
+			path = "Specific Products";
+			sourceTree = "<group>";
+		};
+		2996FC9C287375CD00C2CB50 /* Specific Factory */ = {
+			isa = PBXGroup;
+			children = (
+				2996FCA02873766000C2CB50 /* VerticalWashingMachineFactory.h */,
+				2996FCA12873766000C2CB50 /* VerticalWashingMachineFactory.m */,
+				2996FCA3287376B400C2CB50 /* FrontalWashingMachineFactory.h */,
+				2996FCA4287376B400C2CB50 /* FrontalWashingMachineFactory.m */,
+			);
+			path = "Specific Factory";
+			sourceTree = "<group>";
+		};
+		2996FCA628737BBE00C2CB50 /* Warehouse */ = {
+			isa = PBXGroup;
+			children = (
+				2996FCA728737C0800C2CB50 /* Warehouse.h */,
+				2996FCA828737C0800C2CB50 /* Warehouse.m */,
+			);
+			path = Warehouse;
 			sourceTree = "<group>";
 		};
 		2966E3D828741B9300C073A4 /* TabletBuilder */ = {
@@ -404,6 +493,23 @@
 			productReference = 295177BA286438CE008BCDDA /* Singleton.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		2996FC8928734BBA00C2CB50 /* AbstractFactory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2996FC9028734BBA00C2CB50 /* Build configuration list for PBXNativeTarget "AbstractFactory" */;
+			buildPhases = (
+				2996FC8628734BBA00C2CB50 /* Sources */,
+				2996FC8728734BBA00C2CB50 /* Frameworks */,
+				2996FC8828734BBA00C2CB50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AbstractFactory;
+			productName = AbstractFactory;
+			productReference = 2996FC8A28734BBA00C2CB50 /* AbstractFactory.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		2966E3E62874429E00C073A4 /* RegularBuilder */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2966E3ED2874429E00C073A4 /* Build configuration list for PBXNativeTarget "RegularBuilder" */;
@@ -473,6 +579,9 @@
 					295177B9286438CE008BCDDA = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
+					2996FC8928734BBA00C2CB50 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
 					2966E3E62874429E00C073A4 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
@@ -501,6 +610,7 @@
 				2940C29C279DDAB30010B621 /* FactoryMethod */,
 				295177B9286438CE008BCDDA /* Singleton */,
 				29E3612C286AEE3A00E64485 /* Prototype */,
+				2996FC8928734BBA00C2CB50 /* AbstractFactory */,
 				29A6B60F286B47BE00091B3D /* Builder */,
 				2966E3E62874429E00C073A4 /* RegularBuilder */,
 			);
@@ -516,6 +626,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		295177B8286438CE008BCDDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2996FC8828734BBA00C2CB50 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -575,6 +692,19 @@
 			files = (
 				295177BD286438CE008BCDDA /* Singleton.m in Sources */,
 				295177C428644B86008BCDDA /* UserSetting.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2996FC8628734BBA00C2CB50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2996FC992873654200C2CB50 /* FrontalLoadWashingMachine.m in Sources */,
+				2996FC8D28734BBA00C2CB50 /* AbstractFactory.m in Sources */,
+				2996FCA5287376B400C2CB50 /* FrontalWashingMachineFactory.m in Sources */,
+				2996FCA928737C0800C2CB50 /* Warehouse.m in Sources */,
+				2996FCA22873766000C2CB50 /* VerticalWashingMachineFactory.m in Sources */,
+				2996FC962873642F00C2CB50 /* VerticalLoadWashingMachine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -805,6 +935,41 @@
 			};
 			name = Release;
 		};
+		2996FC8E28734BBA00C2CB50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5C9F7X34F2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anatoly.AbstractFactory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2996FC8F28734BBA00C2CB50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5C9F7X34F2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anatoly.AbstractFactory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		2966E3EB2874429E00C073A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -945,6 +1110,15 @@
 			buildConfigurations = (
 				295177BE286438CE008BCDDA /* Debug */,
 				295177BF286438CE008BCDDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2996FC9028734BBA00C2CB50 /* Build configuration list for PBXNativeTarget "AbstractFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2996FC8E28734BBA00C2CB50 /* Debug */,
+				2996FC8F28734BBA00C2CB50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
