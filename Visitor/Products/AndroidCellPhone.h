@@ -9,7 +9,7 @@
 #import "CellPhone.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface AndroidCellPhone : CellPhone
+@interface AndroidCellPhone : NSObject <CellPhone>
 @property (nonatomic, readonly) NSDictionary* characteristics;
 - (instancetype)initWithScreen:(NSString *)resolution
                      osVersion:(NSString *)osVersion;

@@ -11,12 +11,20 @@
 
 @implementation CellPhoneOSVersionReader
 
--(NSString *)visitIOSPhone:(iOSCellPhone *)phone {
-    return [phone getOSVersion];
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        _availableVersions = [[NSMutableArray alloc] init];
+    }
+    return self;
 }
 
--(NSString *)visitAndroidPhone:(AndroidCellPhone *)phone {
-    return [phone getOSVersion];
+-(void)visitIOSPhone:(iOSCellPhone *)phone {
+    [_availableVersions addObject:[phone getOSVersion]];
+}
+
+-(void)visitAndroidPhone:(AndroidCellPhone *)phone {
+    [_availableVersions addObject:[phone getOSVersion]];
 }
 
 @end

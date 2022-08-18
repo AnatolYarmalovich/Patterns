@@ -7,13 +7,15 @@
 
 #import <Foundation/Foundation.h>
 #import "CharacteristicsVisitor.h"
-
 NS_ASSUME_NONNULL_BEGIN
+@class iOSCellPhone, AndroidCellPhone;
 
-@interface CellPhoneResolutionReader : CharacteristicsVisitor
+@interface CellPhoneResolutionReader : NSObject <CharacteristicsVisitor>
 
--(NSString *)visitIOSPhone:(iOSCellPhone *)phone;
--(NSString *)visitAndroidPhone:(AndroidCellPhone *)phone;
+@property (nonatomic) NSMutableArray<NSString *>* availableResolutions;
+-(instancetype)init;
+-(void)visitIOSPhone:(iOSCellPhone *)phone;
+-(void)visitAndroidPhone:(AndroidCellPhone *)phone;
 
 @end
 

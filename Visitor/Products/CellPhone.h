@@ -6,15 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
-#ifndef CharacteristicsReader_h
-#define CharacteristicsReader_h
-@class CharacteristicsVisitor;
-
-@interface CellPhone : NSObject
-
--(void)acceptCharacteristicsReader:(CharacteristicsVisitor *)reader;
-
+@protocol CharacteristicsVisitor;
+@protocol CellPhone
+-(void)acceptCharacteristicsVisitor:(id<CharacteristicsVisitor>)reader;
 @end
-
-#endif /* CharacteristicsReader_h */

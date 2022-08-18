@@ -11,12 +11,20 @@
 
 @implementation CellPhoneResolutionReader
 
--(NSString *)visitIOSPhone:(iOSCellPhone *)phone {
-    return [phone getResolution];
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        _availableResolutions = [NSMutableArray array];
+    }
+    return self;
 }
 
--(NSString *)visitAndroidPhone:(AndroidCellPhone *)phone {
-    return [phone getResolution];
+-(void)visitIOSPhone:(iOSCellPhone *)phone {
+    [_availableResolutions addObject:[phone getResolution]];
+}
+
+-(void)visitAndroidPhone:(AndroidCellPhone *)phone {
+    [_availableResolutions addObject:[phone getResolution]];
 }
 
 @end

@@ -6,15 +6,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "CellPhone.h"
-@class iOSCellPhone, AndroidCellPhone;
 
-#ifndef CharacteristicReader_h
-#define CharacteristicReader_h
+@protocol CellPhone;
 
-@interface CharacteristicsVisitor : NSObject
--(NSString *)visitIOSPhone:(iOSCellPhone *)phone;
--(NSString *)visitAndroidPhone:(AndroidCellPhone *)phone;
+@protocol CharacteristicsVisitor
+-(void)visitIOSPhone:(id<CellPhone>)phone;
+-(void)visitAndroidPhone:(id<CellPhone>)phone;
 @end
 
-#endif /* CharacteristicReader_h */

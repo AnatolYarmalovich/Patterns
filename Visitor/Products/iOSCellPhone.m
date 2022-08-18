@@ -21,7 +21,7 @@
     return self;
 }
 
-- (void)acceptCharacteristicsReader:(CharacteristicsVisitor *)reader {
+- (void)acceptCharacteristicsVisitor:(id<CharacteristicsVisitor>)reader {
     [reader visitIOSPhone: self];
 }
 
