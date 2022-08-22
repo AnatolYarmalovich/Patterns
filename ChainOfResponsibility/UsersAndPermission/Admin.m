@@ -8,7 +8,6 @@
 #import "Admin.h"
 #import "PermissionLevel.h"
 
-
 @implementation Admin
 
 - (instancetype)init {
