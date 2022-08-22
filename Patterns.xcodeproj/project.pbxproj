@@ -33,6 +33,10 @@
 		29E36130286AEE3A00E64485 /* Prototype.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E3612F286AEE3A00E64485 /* Prototype.m */; };
 		29E36138286AF21000E64485 /* WaterTap.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E36137286AF21000E64485 /* WaterTap.m */; };
 		29E3613B286B0C7C00E64485 /* PlumbingStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E3613A286B0C7C00E64485 /* PlumbingStore.m */; };
+		29E496142891174500357C9D /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E496132891174500357C9D /* Route.m */; };
+		29E4961728911A2200357C9D /* NavigationSubsystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E4961628911A2200357C9D /* NavigationSubsystem.m */; };
+		29E4961B289122C500357C9D /* MapSDKFacade.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E4961A289122C500357C9D /* MapSDKFacade.m */; };
+		29EA91B9289003C900B17834 /* Facade.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EA91B8289003C900B17834 /* Facade.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -105,6 +109,14 @@
 		29E36137286AF21000E64485 /* WaterTap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterTap.m; sourceTree = "<group>"; };
 		29E36139286B0C7C00E64485 /* PlumbingStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlumbingStore.h; sourceTree = "<group>"; };
 		29E3613A286B0C7C00E64485 /* PlumbingStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlumbingStore.m; sourceTree = "<group>"; };
+		29E496122891174500357C9D /* Route.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Route.h; sourceTree = "<group>"; };
+		29E496132891174500357C9D /* Route.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Route.m; sourceTree = "<group>"; };
+		29E4961528911A2200357C9D /* NavigationSubsystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationSubsystem.h; sourceTree = "<group>"; };
+		29E4961628911A2200357C9D /* NavigationSubsystem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationSubsystem.m; sourceTree = "<group>"; };
+		29E49619289122C500357C9D /* MapSDKFacade.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapSDKFacade.h; sourceTree = "<group>"; };
+		29E4961A289122C500357C9D /* MapSDKFacade.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapSDKFacade.m; sourceTree = "<group>"; };
+		29EA91B1289003BD00B17834 /* Facade.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Facade.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29EA91B8289003C900B17834 /* Facade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Facade.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +169,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		29EA91AE289003BD00B17834 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -185,9 +204,10 @@
 				2940C29E279DDAB30010B621 /* FactoryMethod */,
 				295177BB286438CE008BCDDA /* Singleton */,
 				29E3612E286AEE3A00E64485 /* Prototype */,
-				2996FC8B28734BBA00C2CB50 /* AbstractFactory */,
 				29A6B611286B47BE00091B3D /* Builder */,
 				2966E3E82874429E00C073A4 /* RegularBuilder */,
+				29EA91B2289003BD00B17834 /* Facade */,
+				2996FC8B28734BBA00C2CB50 /* AbstractFactory */,
 				2940C290279DDA9C0010B621 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -203,6 +223,7 @@
 				29A6B610286B47BE00091B3D /* Builder.xctest */,
 				2966E3D128741A8700C073A4 /* RegularBuilder.xctest */,
 				2966E3E72874429E00C073A4 /* RegularBuilder.xctest */,
+				29EA91B1289003BD00B17834 /* Facade.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -439,6 +460,44 @@
 			path = PlumbingStore;
 			sourceTree = "<group>";
 		};
+		29E49610289116B800357C9D /* NavigationSubsystem */ = {
+			isa = PBXGroup;
+			children = (
+				29E4961528911A2200357C9D /* NavigationSubsystem.h */,
+				29E4961628911A2200357C9D /* NavigationSubsystem.m */,
+			);
+			path = NavigationSubsystem;
+			sourceTree = "<group>";
+		};
+		29E49611289116CE00357C9D /* Route */ = {
+			isa = PBXGroup;
+			children = (
+				29E496122891174500357C9D /* Route.h */,
+				29E496132891174500357C9D /* Route.m */,
+			);
+			path = Route;
+			sourceTree = "<group>";
+		};
+		29E49618289122B100357C9D /* MapSDK */ = {
+			isa = PBXGroup;
+			children = (
+				29E49619289122C500357C9D /* MapSDKFacade.h */,
+				29E4961A289122C500357C9D /* MapSDKFacade.m */,
+			);
+			path = MapSDK;
+			sourceTree = "<group>";
+		};
+		29EA91B2289003BD00B17834 /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+				29E49618289122B100357C9D /* MapSDK */,
+				29E49611289116CE00357C9D /* Route */,
+				29E49610289116B800357C9D /* NavigationSubsystem */,
+				29EA91B8289003C900B17834 /* Facade.m */,
+			);
+			path = Facade;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -561,6 +620,23 @@
 			productReference = 29E3612D286AEE3A00E64485 /* Prototype.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		29EA91B0289003BD00B17834 /* Facade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29EA91B5289003BD00B17834 /* Build configuration list for PBXNativeTarget "Facade" */;
+			buildPhases = (
+				29EA91AD289003BD00B17834 /* Sources */,
+				29EA91AE289003BD00B17834 /* Frameworks */,
+				29EA91AF289003BD00B17834 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Facade;
+			productName = Facade;
+			productReference = 29EA91B1289003BD00B17834 /* Facade.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -568,6 +644,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
 					2940C28E279DDA9C0010B621 = {
@@ -589,6 +666,9 @@
 						CreatedOnToolsVersion = 13.4.1;
 					};
 					29E3612C286AEE3A00E64485 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					29EA91B0289003BD00B17834 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
@@ -613,6 +693,7 @@
 				2996FC8928734BBA00C2CB50 /* AbstractFactory */,
 				29A6B60F286B47BE00091B3D /* Builder */,
 				2966E3E62874429E00C073A4 /* RegularBuilder */,
+				29EA91B0289003BD00B17834 /* Facade */,
 			);
 		};
 /* End PBXProject section */
@@ -654,6 +735,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		29E3612B286AEE3A00E64485 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29EA91AF289003BD00B17834 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -735,6 +823,17 @@
 				29E36130286AEE3A00E64485 /* Prototype.m in Sources */,
 				29E36138286AF21000E64485 /* WaterTap.m in Sources */,
 				29E3613B286B0C7C00E64485 /* PlumbingStore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29EA91AD289003BD00B17834 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29EA91B9289003C900B17834 /* Facade.m in Sources */,
+				29E496142891174500357C9D /* Route.m in Sources */,
+				29E4961728911A2200357C9D /* NavigationSubsystem.m in Sources */,
+				29E4961B289122C500357C9D /* MapSDKFacade.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1075,6 +1174,41 @@
 			};
 			name = Release;
 		};
+		29EA91B6289003BD00B17834 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5C9F7X34F2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anatoly.Facade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29EA91B7289003BD00B17834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5C9F7X34F2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anatoly.Facade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1146,6 +1280,15 @@
 			buildConfigurations = (
 				29E36131286AEE3A00E64485 /* Debug */,
 				29E36132286AEE3A00E64485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29EA91B5289003BD00B17834 /* Build configuration list for PBXNativeTarget "Facade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29EA91B6289003BD00B17834 /* Debug */,
+				29EA91B7289003BD00B17834 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
