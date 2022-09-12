@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29086CAC28B663D000D214D3 /* Bridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 29086CAB28B663D000D214D3 /* Bridge.m */; };
 		291AD1412874438400AF284F /* Tablet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2966E3E128741E9600C073A4 /* Tablet.m */; };
 		291AD1422874438700AF284F /* TabletBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2966E3DD28741E8000C073A4 /* TabletBuilder.m */; };
 		29223C5128A4FD5200D70FF8 /* CellPhoneResolutionReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 29223C5028A4FD5200D70FF8 /* CellPhoneResolutionReader.m */; };
@@ -22,8 +23,10 @@
 		2940C2B8279DE65D0010B621 /* CreateNetworkDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 2940C2B7279DE65D0010B621 /* CreateNetworkDataSource.m */; };
 		2940C2BB279DE6800010B621 /* CreateLocalDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 2940C2BA279DE6800010B621 /* CreateLocalDataSource.m */; };
 		2940C2BF279DEA7B0010B621 /* Repository.m in Sources */ = {isa = PBXBuildFile; fileRef = 2940C2BE279DEA7B0010B621 /* Repository.m */; };
+		2941A00128CE149C00309A56 /* WirelessHeadphones.m in Sources */ = {isa = PBXBuildFile; fileRef = 2941A00028CE149C00309A56 /* WirelessHeadphones.m */; };
 		295177BD286438CE008BCDDA /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 295177BC286438CE008BCDDA /* Singleton.m */; };
 		295177C428644B86008BCDDA /* UserSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 295177C328644B86008BCDDA /* UserSetting.m */; };
+		295A49E928CF2FCB0001A358 /* IPODTouch+IPODTouchSecondGen.m in Sources */ = {isa = PBXBuildFile; fileRef = 295A49E828CF2FCB0001A358 /* IPODTouch+IPODTouchSecondGen.m */; };
 		2966E3EE287442A600C073A4 /* RegularBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2966E3D328741A8700C073A4 /* RegularBuilder.m */; };
 		297A900F28B396B6007ED82C /* AdminUserHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 297A900E28B396B6007ED82C /* AdminUserHandler.m */; };
 		297A901728B3AEF7007ED82C /* Adapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 297A901628B3AEF7007ED82C /* Adapter.m */; };
@@ -41,6 +44,8 @@
 		29CEE3B82893C35400913F20 /* Visitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CEE3B72893C35400913F20 /* Visitor.m */; };
 		29CEE3C52893C78100913F20 /* AndroidCellPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CEE3C42893C78100913F20 /* AndroidCellPhone.m */; };
 		29CEE3C82893C79400913F20 /* iOSCellPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CEE3C72893C79400913F20 /* iOSCellPhone.m */; };
+		29D8F70328CE153D00DC7847 /* WirelessSpeaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D8F70228CE153D00DC7847 /* WirelessSpeaker.m */; };
+		29D8F70728CE277A00DC7847 /* IPODTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D8F70628CE277A00DC7847 /* IPODTouch.m */; };
 		29E36130286AEE3A00E64485 /* Prototype.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E3612F286AEE3A00E64485 /* Prototype.m */; };
 		29E36138286AF21000E64485 /* WaterTap.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E36137286AF21000E64485 /* WaterTap.m */; };
 		29E3613B286B0C7C00E64485 /* PlumbingStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E3613A286B0C7C00E64485 /* PlumbingStore.m */; };
@@ -66,6 +71,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		29086CA928B663D000D214D3 /* Bridge.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bridge.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29086CAB28B663D000D214D3 /* Bridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bridge.m; sourceTree = "<group>"; };
 		29223C4F28A4FD5200D70FF8 /* CellPhoneResolutionReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellPhoneResolutionReader.h; sourceTree = "<group>"; };
 		29223C5028A4FD5200D70FF8 /* CellPhoneResolutionReader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellPhoneResolutionReader.m; sourceTree = "<group>"; };
 		29223C5228A7FEA400D70FF8 /* CellPhoneOSVersionReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellPhoneOSVersionReader.h; sourceTree = "<group>"; };
@@ -92,10 +99,15 @@
 		2940C2BA279DE6800010B621 /* CreateLocalDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateLocalDataSource.m; sourceTree = "<group>"; };
 		2940C2BD279DEA7B0010B621 /* Repository.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Repository.h; sourceTree = "<group>"; };
 		2940C2BE279DEA7B0010B621 /* Repository.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Repository.m; sourceTree = "<group>"; };
+		29419FFF28CE149C00309A56 /* WirelessHeadphones.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WirelessHeadphones.h; sourceTree = "<group>"; };
+		2941A00028CE149C00309A56 /* WirelessHeadphones.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WirelessHeadphones.m; sourceTree = "<group>"; };
 		295177BA286438CE008BCDDA /* Singleton.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Singleton.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		295177BC286438CE008BCDDA /* Singleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
 		295177C228644B86008BCDDA /* UserSetting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserSetting.h; sourceTree = "<group>"; };
 		295177C328644B86008BCDDA /* UserSetting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserSetting.m; sourceTree = "<group>"; };
+		295A49E528CF2B340001A358 /* AudioSignalReceiver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioSignalReceiver.h; sourceTree = "<group>"; };
+		295A49E728CF2FCB0001A358 /* IPODTouch+IPODTouchSecondGen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IPODTouch+IPODTouchSecondGen.h"; sourceTree = "<group>"; };
+		295A49E828CF2FCB0001A358 /* IPODTouch+IPODTouchSecondGen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "IPODTouch+IPODTouchSecondGen.m"; sourceTree = "<group>"; };
 		2966E3D128741A8700C073A4 /* RegularBuilder.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RegularBuilder.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2966E3D328741A8700C073A4 /* RegularBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegularBuilder.m; sourceTree = "<group>"; };
 		2966E3DC28741E8000C073A4 /* TabletBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabletBuilder.h; sourceTree = "<group>"; };
@@ -142,6 +154,10 @@
 		29CEE3C72893C79400913F20 /* iOSCellPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSCellPhone.m; sourceTree = "<group>"; };
 		29CEE3C92893C8D900913F20 /* CellPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellPhone.h; sourceTree = "<group>"; };
 		29CEE3D22893CA6A00913F20 /* CharacteristicsVisitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CharacteristicsVisitor.h; sourceTree = "<group>"; };
+		29D8F70128CE153D00DC7847 /* WirelessSpeaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WirelessSpeaker.h; sourceTree = "<group>"; };
+		29D8F70228CE153D00DC7847 /* WirelessSpeaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WirelessSpeaker.m; sourceTree = "<group>"; };
+		29D8F70528CE277A00DC7847 /* IPODTouch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPODTouch.h; sourceTree = "<group>"; };
+		29D8F70628CE277A00DC7847 /* IPODTouch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPODTouch.m; sourceTree = "<group>"; };
 		29E3612D286AEE3A00E64485 /* Prototype.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Prototype.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29E3612F286AEE3A00E64485 /* Prototype.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Prototype.m; sourceTree = "<group>"; };
 		29E36136286AF21000E64485 /* WaterTap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaterTap.h; sourceTree = "<group>"; };
@@ -167,6 +183,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		29086CA628B663D000D214D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2940C28C279DDA9C0010B621 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -247,6 +270,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29086CAA28B663D000D214D3 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				29D8F70428CE15DE00DC7847 /* SignalSource */,
+				29DE99C728B761FC001111F1 /* SignalReceiver */,
+				29086CAB28B663D000D214D3 /* Bridge.m */,
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
 		29348F47286C86C9003F4B78 /* LaptopBuilder */ = {
 			isa = PBXGroup;
 			children = (
@@ -279,6 +312,7 @@
 				29CEE3B62893C35400913F20 /* Visitor */,
 				297E329E28AE43FE0076BA9F /* ChainOfResponsibility */,
 				297A901528B3AEF7007ED82C /* Adapter */,
+				29086CAA28B663D000D214D3 /* Bridge */,
 				2940C290279DDA9C0010B621 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -298,6 +332,7 @@
 				29CEE3B52893C35400913F20 /* Visitor.xctest */,
 				297E329D28AE43FE0076BA9F /* ChainOfResponsibility.xctest */,
 				297A901428B3AEF7007ED82C /* Adapter.xctest */,
+				29086CA928B663D000D214D3 /* Bridge.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -595,6 +630,29 @@
 			path = CharacteristicsVisitors;
 			sourceTree = "<group>";
 		};
+		29D8F70428CE15DE00DC7847 /* SignalSource */ = {
+			isa = PBXGroup;
+			children = (
+				29D8F70528CE277A00DC7847 /* IPODTouch.h */,
+				29D8F70628CE277A00DC7847 /* IPODTouch.m */,
+				295A49E728CF2FCB0001A358 /* IPODTouch+IPODTouchSecondGen.h */,
+				295A49E828CF2FCB0001A358 /* IPODTouch+IPODTouchSecondGen.m */,
+			);
+			path = SignalSource;
+			sourceTree = "<group>";
+		};
+		29DE99C728B761FC001111F1 /* SignalReceiver */ = {
+			isa = PBXGroup;
+			children = (
+				295A49E528CF2B340001A358 /* AudioSignalReceiver.h */,
+				29419FFF28CE149C00309A56 /* WirelessHeadphones.h */,
+				2941A00028CE149C00309A56 /* WirelessHeadphones.m */,
+				29D8F70128CE153D00DC7847 /* WirelessSpeaker.h */,
+				29D8F70228CE153D00DC7847 /* WirelessSpeaker.m */,
+			);
+			path = SignalReceiver;
+			sourceTree = "<group>";
+		};
 		29E3612E286AEE3A00E64485 /* Prototype */ = {
 			isa = PBXGroup;
 			children = (
@@ -666,6 +724,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		29086CA828B663D000D214D3 /* Bridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29086CAF28B663D000D214D3 /* Build configuration list for PBXNativeTarget "Bridge" */;
+			buildPhases = (
+				29086CA528B663D000D214D3 /* Sources */,
+				29086CA628B663D000D214D3 /* Frameworks */,
+				29086CA728B663D000D214D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bridge;
+			productName = Bridge;
+			productReference = 29086CA928B663D000D214D3 /* Bridge.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		2940C28E279DDA9C0010B621 /* Patterns */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2940C296279DDA9C0010B621 /* Build configuration list for PBXNativeTarget "Patterns" */;
@@ -863,6 +938,9 @@
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
+					29086CA828B663D000D214D3 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
 					2940C28E279DDA9C0010B621 = {
 						CreatedOnToolsVersion = 13.2;
 					};
@@ -922,11 +1000,19 @@
 				29CEE3B42893C35400913F20 /* Visitor */,
 				297E329C28AE43FE0076BA9F /* ChainOfResponsibility */,
 				297A901328B3AEF7007ED82C /* Adapter */,
+				29086CA828B663D000D214D3 /* Bridge */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		29086CA728B663D000D214D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2940C29B279DDAB30010B621 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1000,6 +1086,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		29086CA528B663D000D214D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2941A00128CE149C00309A56 /* WirelessHeadphones.m in Sources */,
+				29D8F70728CE277A00DC7847 /* IPODTouch.m in Sources */,
+				295A49E928CF2FCB0001A358 /* IPODTouch+IPODTouchSecondGen.m in Sources */,
+				29086CAC28B663D000D214D3 /* Bridge.m in Sources */,
+				29D8F70328CE153D00DC7847 /* WirelessSpeaker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2940C28B279DDA9C0010B621 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1124,6 +1222,41 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		29086CAD28B663D000D214D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5C9F7X34F2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anatoly.Bridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29086CAE28B663D000D214D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5C9F7X34F2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anatoly.Bridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		2940C294279DDA9C0010B621 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1619,6 +1752,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		29086CAF28B663D000D214D3 /* Build configuration list for PBXNativeTarget "Bridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29086CAD28B663D000D214D3 /* Debug */,
+				29086CAE28B663D000D214D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2940C28A279DDA9C0010B621 /* Build configuration list for PBXProject "Patterns" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
