@@ -41,6 +41,11 @@
 		2996FCA5287376B400C2CB50 /* FrontalWashingMachineFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2996FCA4287376B400C2CB50 /* FrontalWashingMachineFactory.m */; };
 		2996FCA928737C0800C2CB50 /* Warehouse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2996FCA828737C0800C2CB50 /* Warehouse.m */; };
 		29A6B613286B47BE00091B3D /* Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A6B612286B47BE00091B3D /* Builder.m */; };
+		29A86F36293D36A6005CA0C2 /* Strategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A86F35293D36A6005CA0C2 /* Strategy.m */; };
+		29A86F40293D3893005CA0C2 /* PedestrianStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A86F3F293D3893005CA0C2 /* PedestrianStrategy.m */; };
+		29A86F43293D3C22005CA0C2 /* VehicleStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A86F42293D3C22005CA0C2 /* VehicleStrategy.m */; };
+		29A86F46293D3C77005CA0C2 /* BicycleStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A86F45293D3C77005CA0C2 /* BicycleStrategy.m */; };
+		29A86F49293D3CA0005CA0C2 /* NavigatorContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A86F48293D3CA0005CA0C2 /* NavigatorContext.m */; };
 		29CEE3B82893C35400913F20 /* Visitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CEE3B72893C35400913F20 /* Visitor.m */; };
 		29CEE3C52893C78100913F20 /* AndroidCellPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CEE3C42893C78100913F20 /* AndroidCellPhone.m */; };
 		29CEE3C82893C79400913F20 /* iOSCellPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CEE3C72893C79400913F20 /* iOSCellPhone.m */; };
@@ -146,6 +151,19 @@
 		29A6B60B286B217800091B3D /* FaucetMechanism.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FaucetMechanism.h; sourceTree = "<group>"; };
 		29A6B610286B47BE00091B3D /* Builder.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Builder.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29A6B612286B47BE00091B3D /* Builder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Builder.m; sourceTree = "<group>"; };
+		29A86F33293D36A6005CA0C2 /* Strategy.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Strategy.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29A86F35293D36A6005CA0C2 /* Strategy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Strategy.m; sourceTree = "<group>"; };
+		29A86F3D293D375E005CA0C2 /* TransportStrategy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransportStrategy.h; sourceTree = "<group>"; };
+		29A86F3E293D3893005CA0C2 /* PedestrianStrategy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PedestrianStrategy.h; sourceTree = "<group>"; };
+		29A86F3F293D3893005CA0C2 /* PedestrianStrategy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PedestrianStrategy.m; sourceTree = "<group>"; };
+		29A86F41293D3C22005CA0C2 /* VehicleStrategy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VehicleStrategy.h; sourceTree = "<group>"; };
+		29A86F42293D3C22005CA0C2 /* VehicleStrategy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VehicleStrategy.m; sourceTree = "<group>"; };
+		29A86F44293D3C77005CA0C2 /* BicycleStrategy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BicycleStrategy.h; sourceTree = "<group>"; };
+		29A86F45293D3C77005CA0C2 /* BicycleStrategy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BicycleStrategy.m; sourceTree = "<group>"; };
+		29A86F47293D3CA0005CA0C2 /* NavigatorContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigatorContext.h; sourceTree = "<group>"; };
+		29A86F48293D3CA0005CA0C2 /* NavigatorContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigatorContext.m; sourceTree = "<group>"; };
+		29A86F4A293D3E65005CA0C2 /* MovementType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovementType.h; sourceTree = "<group>"; };
+		29A86F4B293D3E7D005CA0C2 /* TerrainType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TerrainType.h; sourceTree = "<group>"; };
 		29CEE3B52893C35400913F20 /* Visitor.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Visitor.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29CEE3B72893C35400913F20 /* Visitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Visitor.m; sourceTree = "<group>"; };
 		29CEE3C32893C78100913F20 /* AndroidCellPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AndroidCellPhone.h; sourceTree = "<group>"; };
@@ -246,6 +264,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		29A86F30293D36A5005CA0C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		29CEE3B22893C35400913F20 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -313,6 +338,7 @@
 				297E329E28AE43FE0076BA9F /* ChainOfResponsibility */,
 				297A901528B3AEF7007ED82C /* Adapter */,
 				29086CAA28B663D000D214D3 /* Bridge */,
+				29A86F34293D36A6005CA0C2 /* Strategy */,
 				2940C290279DDA9C0010B621 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -333,6 +359,7 @@
 				297E329D28AE43FE0076BA9F /* ChainOfResponsibility.xctest */,
 				297A901428B3AEF7007ED82C /* Adapter.xctest */,
 				29086CA928B663D000D214D3 /* Bridge.xctest */,
+				29A86F33293D36A6005CA0C2 /* Strategy.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -594,6 +621,41 @@
 				29A6B612286B47BE00091B3D /* Builder.m */,
 			);
 			path = Builder;
+			sourceTree = "<group>";
+		};
+		29A86F34293D36A6005CA0C2 /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				29A86F3B293D370C005CA0C2 /* RoutingStrategy */,
+				29A86F3A293D36CA005CA0C2 /* NavigatorContext */,
+				29A86F35293D36A6005CA0C2 /* Strategy.m */,
+			);
+			path = Strategy;
+			sourceTree = "<group>";
+		};
+		29A86F3A293D36CA005CA0C2 /* NavigatorContext */ = {
+			isa = PBXGroup;
+			children = (
+				29A86F47293D3CA0005CA0C2 /* NavigatorContext.h */,
+				29A86F48293D3CA0005CA0C2 /* NavigatorContext.m */,
+			);
+			path = NavigatorContext;
+			sourceTree = "<group>";
+		};
+		29A86F3B293D370C005CA0C2 /* RoutingStrategy */ = {
+			isa = PBXGroup;
+			children = (
+				29A86F3D293D375E005CA0C2 /* TransportStrategy.h */,
+				29A86F3E293D3893005CA0C2 /* PedestrianStrategy.h */,
+				29A86F3F293D3893005CA0C2 /* PedestrianStrategy.m */,
+				29A86F41293D3C22005CA0C2 /* VehicleStrategy.h */,
+				29A86F42293D3C22005CA0C2 /* VehicleStrategy.m */,
+				29A86F44293D3C77005CA0C2 /* BicycleStrategy.h */,
+				29A86F45293D3C77005CA0C2 /* BicycleStrategy.m */,
+				29A86F4A293D3E65005CA0C2 /* MovementType.h */,
+				29A86F4B293D3E7D005CA0C2 /* TerrainType.h */,
+			);
+			path = RoutingStrategy;
 			sourceTree = "<group>";
 		};
 		29CEE3B62893C35400913F20 /* Visitor */ = {
@@ -877,6 +939,23 @@
 			productReference = 29A6B610286B47BE00091B3D /* Builder.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		29A86F32293D36A5005CA0C2 /* Strategy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29A86F39293D36A6005CA0C2 /* Build configuration list for PBXNativeTarget "Strategy" */;
+			buildPhases = (
+				29A86F2F293D36A5005CA0C2 /* Sources */,
+				29A86F30293D36A5005CA0C2 /* Frameworks */,
+				29A86F31293D36A5005CA0C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Strategy;
+			productName = Strategy;
+			productReference = 29A86F33293D36A6005CA0C2 /* Strategy.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		29CEE3B42893C35400913F20 /* Visitor */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 29CEE3BB2893C35400913F20 /* Build configuration list for PBXNativeTarget "Visitor" */;
@@ -965,6 +1044,9 @@
 					29A6B60F286B47BE00091B3D = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
+					29A86F32293D36A5005CA0C2 = {
+						CreatedOnToolsVersion = 14.1;
+					};
 					29CEE3B42893C35400913F20 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
@@ -1001,6 +1083,7 @@
 				297E329C28AE43FE0076BA9F /* ChainOfResponsibility */,
 				297A901328B3AEF7007ED82C /* Adapter */,
 				29086CA828B663D000D214D3 /* Bridge */,
+				29A86F32293D36A5005CA0C2 /* Strategy */,
 			);
 		};
 /* End PBXProject section */
@@ -1056,6 +1139,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		29A6B60E286B47BE00091B3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29A86F31293D36A5005CA0C2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1183,6 +1273,18 @@
 				29348F4F286C871D003F4B78 /* LaptopBuilder.m in Sources */,
 				29A6B613286B47BE00091B3D /* Builder.m in Sources */,
 				29348F4C286C8709003F4B78 /* Laptop.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29A86F2F293D36A5005CA0C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29A86F49293D3CA0005CA0C2 /* NavigatorContext.m in Sources */,
+				29A86F43293D3C22005CA0C2 /* VehicleStrategy.m in Sources */,
+				29A86F36293D36A6005CA0C2 /* Strategy.m in Sources */,
+				29A86F40293D3893005CA0C2 /* PedestrianStrategy.m in Sources */,
+				29A86F46293D3C77005CA0C2 /* BicycleStrategy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1644,6 +1746,43 @@
 			};
 			name = Release;
 		};
+		29A86F37293D36A6005CA0C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5C9F7X34F2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Anatol-Yarmalovich.Strategy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29A86F38293D36A6005CA0C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5C9F7X34F2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Anatol-Yarmalovich.Strategy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		29CEE3B92893C35400913F20 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1838,6 +1977,15 @@
 			buildConfigurations = (
 				29A6B614286B47BE00091B3D /* Debug */,
 				29A6B615286B47BE00091B3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29A86F39293D36A6005CA0C2 /* Build configuration list for PBXNativeTarget "Strategy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29A86F37293D36A6005CA0C2 /* Debug */,
+				29A86F38293D36A6005CA0C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
